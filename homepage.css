@@ -1,0 +1,79 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: white;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: black;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: black;
+}
+.content-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.content-item h2 {
+  margin-bottom: 10px;
+}
+.content-item p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #4cae4c;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: green;
+  width: 100%;
+  bottom: 0;
+}
